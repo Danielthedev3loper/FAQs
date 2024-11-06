@@ -1,0 +1,58 @@
+/* General styling */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* FAQ card styling */
+.faq-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.faq-card:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.question-btn {
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.question-btn:focus,
+.question-btn:hover {
+  color: black; /* Highlight color for hover */
+  text-decoration: none;
+}
+
+.card-header {
+  padding: 20px;
+}
+
+.card-body {
+  padding: 15px;
+  color: #555555;
+  font-size: 0.95rem;
+  background-color: #fafafa;
+  border-top: 1px solid #e9ecef;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+@media (min-width: 992px) {
+  .faq-card {
+      min-height: 250px; /* Ensures consistent height on large screens */
+  }
+}
